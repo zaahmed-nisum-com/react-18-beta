@@ -7,9 +7,9 @@ import Transitions from "./features/newHook/transitions";
 function App() {
   return (
     <div className="App">
-      <BatchUpdating />
+      {/* <BatchUpdating /> */}
       {/* <Transitions /> */}
-      {/* <SuspenseFeature /> */}
+      <SuspenseFeature />
     </div>
   );
 }

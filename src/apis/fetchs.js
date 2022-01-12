@@ -1,6 +1,6 @@
 export const apis = {
   fetchToDos: async () => {
-    const response = await fetch("https://jsonplaceholder.typicode.com/todos/");
+    const response = await fetch("https://jsonplaceholder.typicode.com/users/1/todos");
     const res = await response.json();
     return res;
   },
