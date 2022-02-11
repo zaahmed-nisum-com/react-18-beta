@@ -1,0 +1,64 @@
+.chat-message-container {
+  height: 500px;
+  padding: 10px;
+  width: 100%;
+  overflow: scroll;
+  background-color: gray;
+}
+
+.chat-message-container p {
+  border: 1px solid;
+  margin: 10px 0px;
+  width: fit-content;
+  padding: 0px 10px;
+  border-radius: 50px;
+  max-width: 300px;
+  background-color: #6666dd;
+  color: white;
+  word-wrap: break-word;
+}
+
+.switcher-div {
+  display: flex;
+}
+.switcher-div div {
+  margin: 30px 0px 0px 15px;
+}
+
+.switcher-div div a p {
+  width: fit-content;
+  border: 1px solid;
+  padding: 10px 15px;
+  border-radius: 50px;
+  position: absolute;
+  margin: -25px 60px;
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+input {
+  border: 1px solid;
+  margin: 10px;
+  border-radius: 50px;
+  padding: 5px;
+  width: 400px;
+  box-shadow: 3px 3px 5px -2px grey;
+}
+button {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  box-shadow: 3px 3px 5px -2px grey;
+}
